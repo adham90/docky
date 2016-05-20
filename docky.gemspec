@@ -6,12 +6,13 @@ require 'docky/version'
 Gem::Specification.new do |spec|
   spec.name          = "docky"
   spec.version       = Docky::VERSION
-  spec.authors       = ["adham90"]
+  spec.authors       = ["Adham EL-Deeb"]
   spec.email         = ["adham.eldeeb90@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Ruby on Rails API documentation generator}
+  spec.description   = %q{Ruby on Rails API documentation generator}
+
+  spec.homepage      = "https://github.com/adham90/docky"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
